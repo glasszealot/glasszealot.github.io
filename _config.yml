@@ -21,3 +21,8 @@ gems: [jekyll-paginate, jekyll-feed]
 exclude:
   - Gemfile
   - Gemfile.lock
+  
+  
+  
+  
+google_analytics: UA-190876761-1

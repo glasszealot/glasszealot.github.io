@@ -7,4 +7,7 @@
     <link rel="stylesheet" href="{{ site.baseurl }}/assets/css/normalize.css">
     <link rel="stylesheet" href="{{ site.baseurl }}/assets/css/skeleton.css">
     <link rel="stylesheet" href="{{ site.baseurl }}/assets/css/custom.css">
+    {% if site.google_analytics and jekyll.environment == 'production' %}
+    {% include analytics.html %}
+    {% endif %}
 </head>
